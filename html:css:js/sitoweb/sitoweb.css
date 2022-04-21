@@ -1,0 +1,73 @@
+
+body{
+background-color: #dedede;
+width: 1170px;
+font-family: 'Akshar', sans-serif;
+font-size: 14px;
+text-align: justify;
+line-height: 1.4em;
+margin: auto;
+}
+
+.container {
+    width: 1170px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+}
+
+header {
+    width: 100%;
+    height: 160px;
+    background-color: #9e9e30;
+    background-image: url('http://www.maurodeberardis.it/CodiciPHP/SitoGigaWeb/images/logo.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+@media screen and (max-width: 600px) {
+    nav a {
+      float: none;
+      width: 100%;
+    }
+}
+
+nav {
+    height: 30px;
+    font-size: 16px;
+    text-align: left;
+    background-color: #00ff00;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.colonna {
+    width: 565px;
+    margin: 0px;
+    padding: 10px;
+    float: left;
+    background-color: #f0f0f0;
+}
+
+p {
+    font-family: 'Akshar', sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 1.4em;
+}
+
+
+footer {
+    height: 40px;
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    clear: both !important;
+}

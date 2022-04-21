@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./ripasso.css">
+    <script type="text/javascript" src="./ripasso.js"></script>
+
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Controllo validità dell'input con JavaScript</h1>
+        <h4>Nel campo nome vengono accettate le lettere maiuscole (A-Z), le lettere minuscole (a-z),
+            le lettere minuscole accentate (sia acute che gravi) e lo spazio, purchè non in prima posizione. <br>
+        Nel campo matricola vengono accettati esclusivamente caratteri numerici che fromano un numero valido, compreso tra 1 e 2000. <br> <br>
+    Purtroppo alcuni browser Android non supportano l'evento JavaScript 'keypress': in questi
+casi il controllo di validità non risulta efficace. </h4>
+    </header>
+
+    <form method="get" name="form">
+        <div class="input">
+    Nome <input type="text" id="nome">
+    Matricola [1:2000] <input type="text" id="matricola">
+        </div>
+        <div class="buttons">
+            <button type="button" value="Submit" onkeypress="Valida()">
+            <input type="reset" name="reset" value="Reset">
+        </div>
+
+    </form>
+</div>
+
+
+
+</body>
+
+
+</html>

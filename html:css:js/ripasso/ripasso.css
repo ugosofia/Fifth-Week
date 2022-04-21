@@ -1,0 +1,43 @@
+.container {
+    width: 700px;
+    height: 500px;
+    margin-left: 25%;
+    margin-top: 10px;
+    border-style: dashed black;
+    background-color: rgb(243, 243, 187);
+}
+
+h1 {
+    width: auto;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+h4 {
+    width: auto;
+    margin-left: 5px;
+}
+
+.input {
+    width: 200px;
+    margin-top: 30px;
+}
+
+input [type = "text"] {
+    margin-top: 50px;
+}
+
+input [type = "button"] {
+    color: rgb(14, 46, 14);
+    margin-top: 50px;
+}
+
+input [type = "reset"] {
+    background-color: rgb(14, 46, 14);
+    margin-top: 50px;
+}
+
+.buttons {
+    margin-top: 30px;
+    margin-left: 5px;
+}
